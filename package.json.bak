@@ -1,0 +1,33 @@
+{
+  "name": "diglife-portal-dev",
+  "keywords": [],
+  "dependencies": {
+    "@johmun/vue-tags-input": "1.5.9",
+    "axios": "0.18.0",
+    "kinto-http": "4.6.1",
+    "node-slack": "0.0.7",
+    "npm": "^6.4.1",
+    "particles.js": "2.0.0",
+    "vue": "2.5.17",
+    "vue-axios": "2.1.4",
+    "vue-cookies": "1.5.7",
+    "vue-material": "1.0.0-beta-10.2"
+  },
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "description": "This is in sync with GitHub.",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}

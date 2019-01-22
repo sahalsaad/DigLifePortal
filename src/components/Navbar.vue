@@ -606,12 +606,21 @@
 
 <script>
 import { BASEURL, CHATURL } from "../constants.js";
-import Particles from "./Particles";
-import Tags from "./Tags";
-import Cards from "./Cards";
-import Notes from "./Notes";
-import Holons from "./Holons";
-import Skills from "./Skills";
+//<<<<<<< Updated upstream
+//import Particles from "./Particles";
+//import Tags from "./Tags";
+//import Cards from "./Cards";
+//import Notes from "./Notes";
+//import Holons from "./Holons";
+//import Skills from "./Skills";
+//=======
+import Particles from "./Particles.vue";
+import Tags from "./Tags.vue";
+import Cards from "./Cards.vue";
+import Notes from "./Notes.vue";
+import Holons from "./Holons.vue";
+import Skills from "./Skills.vue";
+//>>>>>>> Stashed changes
 import Slack from "node-slack";
 import Odometer from "vue-odometer";
 

@@ -18,7 +18,7 @@
 //import {scaleLinear} from "d3-scale";
 import * as d3 from "d3"; //all
 import db from "../firebase/init";
-import Tags from "./Tags";
+import Tags from "./Tags.vue";
 import { BASEURL, CHATURL } from "../constants.js";
 import _ from "lodash/fp/array"; //lodash/fp/object for objects only
 
